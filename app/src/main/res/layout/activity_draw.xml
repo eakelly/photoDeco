@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="elizabethkelly.simplephotodeco.MainActivity"
+    android:background="#f5f2a8">
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brushColorSpinner"
+        android:background="#c7a1f8"
+        android:spinnerMode="dropdown"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignEnd="@+id/takePic"
+        android:layout_alignParentEnd="false"/>
+
+    <elizabethkelly.simplephotodeco.DrawView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/drawView"
+        android:layout_below="@+id/brushColorSpinner"
+        android:layout_above="@+id/takePic" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/take"
+        android:id="@+id/takePic"
+        android:clickable="false"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textSize="12sp"
+        android:background="#5cbcf7"
+        android:layout_toStartOf="@+id/savePic"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/savePic"
+        android:clickable="true"
+        android:background="#98ef9d"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:singleLine="false"
+        android:layout_below="@+id/drawView"
+        android:layout_toStartOf="@+id/clear" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:id="@+id/clear"
+        android:clickable="true"
+        android:background="#ff8cb3"
+        android:textSize="12sp"
+        android:singleLine="false"
+        android:textStyle="bold"
+        android:allowUndo="true"
+        android:layout_below="@+id/drawView"
+        android:layout_alignEnd="@+id/drawView"
+        android:layout_alignParentEnd="true"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brushSizeSpinner"
+        android:spinnerMode="dropdown"
+        android:background="#c7a1f8"
+        android:visibility="visible"
+        android:layout_above="@+id/drawView"
+        android:layout_toStartOf="@+id/clear"
+        android:layout_toEndOf="@id/takePic"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bkgdColor"
+        android:spinnerMode="dropdown"
+        android:background="#c7a1f8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/brushSizeSpinner"
+        android:layout_alignParentStart="false" />
+
+</RelativeLayout>

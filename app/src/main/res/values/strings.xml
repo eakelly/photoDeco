@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Simple Photo Deco</string>
+    <string name="welcome">Let\'s get started</string>
+    <string name="preview">Preview</string>
+    <string name="take">Take Photo</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="choose">Choose Photo</string>
+    <string name="colorPick">Choose Photo</string>
+    <string name="brushSize">Choose Photo</string>
+    <string name="start">Let\'s Get Started</string>
+
+</resources>
