@@ -2,32 +2,58 @@
 <items version="2" >
 
     <item
-        jar="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/SimplePhotoDeco/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/SimplePhotoDeco/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_5ee4ff911691fe8d4e5de51446dd7b1a199c76ce.jar" />
-    </item>
-    <item
+        is-multidex="true"
         jar="/Users/Elizabeth/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/SimplePhotoDeco/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_19dba52fa01360536e0d2341154315d7ddca9ceb.jar" />
+        <dex dex="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/photoDeco/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_19dba52fa01360536e0d2341154315d7ddca9ceb/classes.dex" />
     </item>
     <item
-        jar="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/SimplePhotoDeco/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/SimplePhotoDeco/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_15c3156b9da83420c6679abf6e29643c0c806f4f.jar" />
-    </item>
-    <item
-        jar="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/SimplePhotoDeco/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
+        is-multidex="true"
+        jar="/Users/Elizabeth/.android/build-cache/1bd9f0879e1b5a964746d7c5988f71aa144d2932/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/SimplePhotoDeco/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_cdc1a8936119dce97f83fd32ec15ed2a69a11c75.jar" />
+        <dex dex="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/photoDeco/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ad15bc01353b91223856f0fc9c0f8d07c7043104/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/photoDeco/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02829718aede87480a92ac3605e42bf45fedddd5">
+        <dex dex="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/photoDeco/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6130361d01fa212cde5c2b2fe726304c2da35ece/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Elizabeth/.android/build-cache/5378dbe1084e6d50e200773ac4016f1994459591/output/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/photoDeco/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_ebe32c49149a84abacdeba2102726911f8fa88f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Elizabeth/.android/build-cache/5378dbe1084e6d50e200773ac4016f1994459591/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/photoDeco/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dc468f3e03aa1bf93724d56086ea74833fbf8d48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/photoDeco/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/Elizabeth/Documents/Hunter Classes/CSCI/CSCI 394.54/photoDeco/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5507550182724729b9f7254d635e4c3ae205562f/classes.dex" />
     </item>
 
 </items>

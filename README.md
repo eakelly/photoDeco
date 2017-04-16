@@ -1,3 +1,3 @@
-# photoDeco
+# PhotoDeco
 
-A simple photo decoration and paint application.
+A simple photo decoration and paint application for Android.
